@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIREBIRD RECORDS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" href="./images/profile.jpg" type="image/x-icon" />
+</head>
+a
+<body>
+
+    <a class="profilePicture">
+        <img src="./images/profile.jpg" alt="Profile Picture">
+    </a>
+
+    <div class="userName">
+        DELUSIONAL PHOENIX.
+    </div>
+
+    <div class="description">
+        Latest release of musical artist DELUSIONAL PHOENIX. Available on all platforms now.
+    </div>
+
+    <div class="links">
+        
+        <a class="link" href="https://music.youtube.com/watch?v=MsdRmohfRFw&feature=share" target="_blank">
+		 <i class="fab fa-youtube">&nbsp;</i>Youtube Music
+		   <!-- <i class="fas fa-music">&nbsp;</i>Youtube Music-->
+        </a>
+        <a class="link" href="https://open.spotify.com/album/6pLZjtZCqSHWbJh4aD9lpG?si=QXxlOJ7AToSK-bB3CqULdw&utm_source=copy-link" target="_blank">
+            <i class="fab fa-spotify">&nbsp;</i>Spotify
+        </a>
+		<a class="link" href="https://deezer.page.link/ohWHrAoSSrFjLzvz7" target="_blank">
+            <i class="fab fa-deezer">&nbsp;</i>Deezer
+        </a>
+		<a class="link" href="https://music.apple.com/us/album/just-me-single/1617536292" target="_blank">
+            <i class="fab fa-apple">&nbsp;</i>Apple Music
+        </a>
+		<a class="link" href="https://tidal.com/track/223589787" target="_blank">
+            <i class="fas fa-music">&nbsp;</i> Tidal
+        </a>
+		<a class="link" href="https://soundcloud.app.goo.gl/bYr6X" target="_blank">
+            <i class="fab fa-soundcloud">&nbsp;</i> Soundcloud
+        </a>
+		<a class="link" href="https://instagram.com/delusionalphoenix?igshid=YmMyMTA2M2Y="" target="_blank">
+            <i class="fab fa-instagram">&nbsp;</i> Instagram
+        </a>
+    </div>
+
+
+	<div class="source">
+        Thank you for ALL the support! Show some love on the internet.  
+        <a href="https://www.youtube.com/channel/UCloiSzC4KWHD20mz88ur0Rg">Youtube Page</a>
+</div>
+
+
+
+
+
+</body>
+
+</html>

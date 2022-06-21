@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+html{
+    background-image: url('./images/phoenixback.png');
+    background-size:cover;
+}
+
+body {
+    /*background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
+    background-size: 400% 400%;
+    /*animation: gradient 8s ease infinite;*/
+	background: GrayText;
+    padding-top:35px;
+    padding-bottom:35px;
+    height:fit-content;
+    min-height:100%;
+		/*opacity: 0.5;
+		background-color: rgba(173,216,230,0.5);}*/
+		
+		opacity:0.8;
+}
+  
+@keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+}
+
+:root {
+    --accentColor: #E6E6E6;
+    --delay: .3s;
+}
+
+.description, .source{
+    color:white;
+    text-align:center;
+    margin: 27px auto;
+    margin-top:10px;
+    width:90%;
+   
+
+}
+
+.source{
+    font-size:medium;
+    margin-top:20px;
+}
+
+.profilePicture, .profilePicture img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 45px auto 30px;
+    border-radius: 50%;
+}
+
+.userName {
+    color: var(--accentColor);
+    font-size: xx-large;
+    font-weight: bold;
+    line-height: 1.50;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links {
+    max-width: 600px;
+    width: auto;
+    display: block;
+    margin:24px auto;
+	color: rgba(128, 128, 128);
+	background: GrayText;
+	
+}
+
+.link {
+    position: relative;
+    background-color: transparent;
+    color: var(--accentColor);
+    border: solid var(--accentColor) 2px;
+    border-radius: 5px;
+    font-size: 1;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 11px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+    .link:hover {
+        background-color: var(--accentColor);
+        color: #000; /* Fallback for older browsers */
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.link:active {
+    background-color: var(--accentColor);
+    color: #000; /* Fallback for older browsers */
+    color: rgba(0, 0, 0, 0.5);
+}
+
