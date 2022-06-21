@@ -842,7 +842,7 @@ opacity:0.8;
 }
 
 .description, .source{
-    color:white;
+    color: rgb(0,0,0);
     text-align:center;
     margin: 27px auto;
     margin-top:10px;
