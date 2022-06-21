@@ -111,7 +111,7 @@ body {
     overflow: hidden;
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: cover;
     animation: animate 3s linear var(--delay) infinite;
     -webkit-background-clip: text;
     background-clip: text;
