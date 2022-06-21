@@ -10,10 +10,11 @@ html{
 }
 
 body {
-    background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
-    background-size: 800% 800%;
-    animation: gradient 8s ease infinite;
+   /* background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));*/
+    background-size: 400% 400%;
+    /*animation: gradient 8s ease infinite;*/
 	background: BlackText;@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+	
 
 :root {
     --bgColor: #223344;
