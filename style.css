@@ -5,7 +5,7 @@ html, body {
 }
 
 html{
-    background-image: url('./images/phoenixback.png');
+    background-image: url('./images/background.jpg');
     background-size:cover;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .description, .source{
-    color:white;
+    color:rgb(34, 0, 104);
     text-align:center;
     margin: 27px auto;
     margin-top:10px;
@@ -82,7 +82,7 @@ body {
     display: block;
     margin:24px auto;
 	color: rgba(128, 128, 128);
-	background: purple;
+	background: rgb(34, 189, 104);
 	
 }
 
